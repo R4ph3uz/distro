@@ -1,12 +1,28 @@
 # My distro
-## Based on ['Pwnbox']("https://github.com/theGuildHall/pwnbox")
+## Based on ['Pwnbox'](https://github.com/theGuildHall/pwnbox) and Parrot
 
 Loved the idea 
 
 ## Step 0 : Install Parrot os MATE (security)
-https://download.parrot.sh/parrot/iso/4.10/Parrot-security-4.10_amd64.iso
+
+\\ Just want to clarify that the instructions below work on Parrot Mate, available to download here:
+All the \\tips work with Parrot Mate , install it there :
+
+[https://download.parrot.sh/parrot/iso/4.10/Parrot-security-4.10_amd64.iso](https://download.parrot.sh/parrot/iso/4.10/Parrot-security-4.10_amd64.iso)
+
+Make it up to date; Make basics stuff
+`
+sudo apt update
+`
+`
+sudo apt full-upgrade
+`
+
 
 ## Step 1 : Clone my repo
+`mkdir ~/gitclones && cd ~/gitclones`
+
+`git clone https://github.com/R4ph3uz/distro.git`
 
 ## Step 2 : 
 
