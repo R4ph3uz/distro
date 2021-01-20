@@ -36,4 +36,6 @@ sudo apt full-upgrade
 
 ## Step 6 : Update 'Panels'
 
+## Step 7 : Other programs
+
 ## Conclu
