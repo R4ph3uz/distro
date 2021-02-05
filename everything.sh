@@ -27,6 +27,6 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 chsh $(which zsh)
-echo 'nano ~/.zshrc modify: ZSH_THEME="powerlevel10k/powerlevel10k and plugins=( git zsh-syntax-highlighting zsh-autosuggestions )
+echo 'nano ~/.zshrc modify: ZSH_THEME="powerlevel10k/powerlevel10k and plugins=( git zsh-syntax-highlighting zsh-autosuggestions )'
 "
 echo "source ~/.zshrc"
