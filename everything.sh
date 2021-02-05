@@ -9,6 +9,7 @@ cd /opt
 sudo tar xjf FirefoxSetup.tar.bz2
 sudo chown -R $USER /opt/firefox
 export PATH=$PATH:/opt/firefox/firefox
+cd ~
 # install firefox developper
 cat > ~/.local/share/applications/firefoxDeveloperEdition.desktop <<EOL
 [Desktop Entry]
