@@ -1,3 +1,4 @@
+#!/bin/bash
 export TERM=xterm-256color
 export PATH=/cybersec:~/opt:$PATH
 
