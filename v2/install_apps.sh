@@ -36,4 +36,5 @@ cd ~
 # Install Disks
 sudo apt install gnome-disk-utility
 
-# Install 
+# Install Plank
+sudo apt install plank
