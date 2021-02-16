@@ -1,7 +1,8 @@
-update.sh
+#!/bin/bash
+sudo update.sh
 
-setup_system.sh
+sudo setup_system.sh
 
-install_apps.sh
+sudo install_apps.sh
 
-setup_config.sh
+sudo setup_config.sh
