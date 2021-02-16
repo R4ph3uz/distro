@@ -21,7 +21,19 @@ git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerl
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
 
+# Install Linpeas
 cd /cybersec
 curl https://raw.githubusercontent.com/carlospolop/privilege-escalation-awesome-scripts-suite/master/linPEAS/linpeas.sh > linpeas
 chmod +x linpeas
 cd ~
+
+# Install Discord
+cd ~/Downloads 
+wget -O discord-0.0.1.deb https://discordapp.com/api/download?platform=linux&format=deb
+sudo dpkg -i discord-0.0.1.deb
+cd ~
+
+# Install Disks
+sudo apt install gnome-disk-utility
+
+# Install 
