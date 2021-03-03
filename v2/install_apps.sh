@@ -42,3 +42,10 @@ sudo apt install plank
 # Candy icons
 mkdir ~/candy-icons && cd ~/candy-icons
 git clone https://github.com/EliverLara/candy-icons.git
+
+# install layan dark
+cd ~/Downloads
+sudo apt-get install gtk2-engines-murrine gtk2-engines-pixbuf
+git clone https://github.com/vinceliuice/Layan-gtk-theme.git
+cd Layan-gtk-theme
+./install.sh
