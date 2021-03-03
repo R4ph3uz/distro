@@ -38,3 +38,7 @@ sudo apt install gnome-disk-utility
 
 # Install Plank
 sudo apt install plank
+
+# Candy icons
+mkdir ~/candy-icons && cd ~/candy-icons
+git clone https://github.com/EliverLara/candy-icons.git
