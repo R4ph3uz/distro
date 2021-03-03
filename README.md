@@ -12,8 +12,7 @@ All the \\tips work with Parrot Mate , install it there :
 
 Make it up to date; Make basics stuff
 `
-sudo apt update
-`
+sudo apt update + sudo apt upgrade`
 `
 sudo apt full-upgrade
 `
